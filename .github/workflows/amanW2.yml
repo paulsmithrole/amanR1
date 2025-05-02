@@ -6,7 +6,7 @@ on:
       environment:
         type: environment
         description: 'Select an environment'
-        required: true
+        required: false
       confirm_deploy:
         type: boolean
         description: 'Are you sure you want to deploy?'
