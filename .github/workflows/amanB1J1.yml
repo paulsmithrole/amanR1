@@ -19,7 +19,6 @@ on:
       deployment_region:
         type: choice
         description: 'Choose a region'
-        required: true
         options:
           - us-east
           - us-west
