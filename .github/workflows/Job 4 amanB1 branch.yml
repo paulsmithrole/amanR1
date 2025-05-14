@@ -1,6 +1,8 @@
 name: GitHub Job 4 amanB1 branch
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
+  push:
+    branches: [ "amanB1" ]
   workflow_dispatch:
     inputs:
       environment:
