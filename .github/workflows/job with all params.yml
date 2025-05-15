@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   workflow_dispatch:
     inputs:
-      environment:
+      env:
         type: environment
         description: 'Select an environment'
         required: true
