@@ -1,6 +1,5 @@
 name: No Param req
 run-name: ${{ github.actor }} is testing out GitHub Actions 
-
 on:
   push:
     branches: [ "amanB1" ]
